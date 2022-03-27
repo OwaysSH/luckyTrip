@@ -1,4 +1,4 @@
-package app.oways.luckytrip.mapper
+package app.oways.luckytrip.util.mapper
 
 import app.oways.luckytrip.data.local.entity.DestinationEntity
 import app.oways.luckytrip.data.remote.response.Destination

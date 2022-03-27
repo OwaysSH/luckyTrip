@@ -13,7 +13,7 @@ import app.oways.luckytrip.callback.DestinationCallback
 import app.oways.luckytrip.callback.IFragment
 import app.oways.luckytrip.data.local.entity.DestinationEntity
 import app.oways.luckytrip.data.remote.response.Destination
-import app.oways.luckytrip.mapper.DestinationMapper
+import app.oways.luckytrip.util.mapper.DestinationMapper
 import app.oways.luckytrip.data.remote.DataState
 import app.oways.luckytrip.data.remote.DestinationResponse
 import app.oways.luckytrip.ui.adapter.remote.DestinationAdapter
