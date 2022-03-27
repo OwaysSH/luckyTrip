@@ -1,4 +1,4 @@
-package app.oways.luckytrip.callback
+package app.oways.luckytrip.ui.callback
 
 import app.oways.luckytrip.data.remote.response.Destination
 

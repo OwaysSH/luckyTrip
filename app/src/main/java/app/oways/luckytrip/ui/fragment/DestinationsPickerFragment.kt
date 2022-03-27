@@ -9,8 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import app.oways.luckytrip.R
-import app.oways.luckytrip.callback.DestinationCallback
-import app.oways.luckytrip.callback.IFragment
+import app.oways.luckytrip.ui.callback.DestinationCallback
+import app.oways.luckytrip.ui.callback.IFragment
 import app.oways.luckytrip.data.local.entity.DestinationEntity
 import app.oways.luckytrip.data.remote.response.Destination
 import app.oways.luckytrip.util.mapper.DestinationMapper
