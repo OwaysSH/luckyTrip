@@ -16,7 +16,7 @@ class LocalDestinationRepository(private val destinationDAO: DestinationDAO) :
 
     override suspend fun addDestination(list: ArrayList<DestinationEntity>) {
         destinationDAO.deleteAllDestination()
-        destinationDAO.addDestination(list)
+        destinationDAO.insertDestination(list)
     }
 
     override suspend fun deleteDestination(destinationId: Long) {

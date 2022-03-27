@@ -12,10 +12,10 @@ import app.oways.luckytrip.data.local.entity.DestinationEntity
 interface DestinationDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun addDestination(destinationEntity: DestinationEntity): Long
+    suspend fun insertDestination(destinationEntity: DestinationEntity): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun addDestination(spamCalls: List<DestinationEntity>)
+    suspend fun insertDestination(list: List<DestinationEntity>)
 
     @Query("Delete from destinations where id =:destinationId")
     suspend fun deleteDestination(destinationId: Long)

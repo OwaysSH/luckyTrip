@@ -43,7 +43,7 @@
     </FrameLayout>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/container_dial"
+        android:id="@+id/container_picker_btn"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_gravity="bottom|end"

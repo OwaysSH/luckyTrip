@@ -101,7 +101,6 @@ class DestinationsPickerFragment : Fragment(R.layout.fragment_destinations_picke
         }
     }
 
-
     private fun observers() {
         destinationViewModel.selectedDestinationsLiveData.observe(viewLifecycleOwner, {
 
