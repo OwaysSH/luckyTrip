@@ -1,7 +1,7 @@
 package app.oways.luckytrip.repository.remote
 
-import app.oways.luckytrip.service.DestinationResponse
-import app.oways.luckytrip.service.DataState
+import app.oways.luckytrip.data.remote.DestinationResponse
+import app.oways.luckytrip.data.remote.DataState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import java.io.IOException

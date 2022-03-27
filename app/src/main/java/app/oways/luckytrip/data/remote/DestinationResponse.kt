@@ -1,6 +1,6 @@
-package app.oways.luckytrip.service
+package app.oways.luckytrip.data.remote
 
-import app.oways.luckytrip.service.dmain.Destination
+import app.oways.luckytrip.data.remote.response.Destination
 import com.google.gson.annotations.SerializedName
 
 data class DestinationResponse(

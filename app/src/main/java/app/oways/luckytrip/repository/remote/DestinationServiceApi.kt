@@ -1,6 +1,6 @@
 package app.oways.luckytrip.repository.remote
 
-import app.oways.luckytrip.service.DestinationResponse
+import app.oways.luckytrip.data.remote.DestinationResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

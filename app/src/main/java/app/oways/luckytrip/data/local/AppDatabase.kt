@@ -1,9 +1,9 @@
-package app.oways.luckytrip.database
+package app.oways.luckytrip.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import app.oways.luckytrip.database.doa.DestinationDAO
-import app.oways.luckytrip.database.entity.DestinationEntity
+import app.oways.luckytrip.data.local.doa.DestinationDAO
+import app.oways.luckytrip.data.local.entity.DestinationEntity
 
 @Database(
     entities = [

@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import app.oways.luckytrip.database.doa.DestinationDAO
-import app.oways.luckytrip.database.entity.DestinationEntity
-import app.oways.luckytrip.service.DataState
+import app.oways.luckytrip.data.local.doa.DestinationDAO
+import app.oways.luckytrip.data.local.entity.DestinationEntity
+import app.oways.luckytrip.data.remote.DataState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.onEmpty

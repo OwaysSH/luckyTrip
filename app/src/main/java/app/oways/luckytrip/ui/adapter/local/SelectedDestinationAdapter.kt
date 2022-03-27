@@ -7,7 +7,7 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import app.oways.luckytrip.R
-import app.oways.luckytrip.database.entity.DestinationEntity
+import app.oways.luckytrip.data.local.entity.DestinationEntity
 import app.oways.luckytrip.util.extentions.gone
 import app.oways.luckytrip.util.extentions.load
 import app.oways.luckytrip.util.extentions.visible

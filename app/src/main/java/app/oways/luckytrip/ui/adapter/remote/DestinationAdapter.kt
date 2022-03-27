@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import app.oways.luckytrip.R
 import app.oways.luckytrip.callback.DestinationCallback
-import app.oways.luckytrip.service.dmain.Destination
+import app.oways.luckytrip.data.remote.response.Destination
 import app.oways.luckytrip.util.comparator.DestinationComparator
 import app.oways.luckytrip.util.comparator.SortBy
 import app.oways.luckytrip.util.extentions.gone

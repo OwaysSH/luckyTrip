@@ -1,4 +1,4 @@
-package app.oways.luckytrip.service.dmain
+package app.oways.luckytrip.data.remote.response
 
 import com.google.gson.annotations.SerializedName
 

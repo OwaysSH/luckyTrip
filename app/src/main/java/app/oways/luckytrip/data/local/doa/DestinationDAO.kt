@@ -1,4 +1,4 @@
-package app.oways.luckytrip.database.doa
+package app.oways.luckytrip.data.local.doa
 
 import androidx.lifecycle.LiveData
 import androidx.paging.DataSource
@@ -6,7 +6,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import app.oways.luckytrip.database.entity.DestinationEntity
+import app.oways.luckytrip.data.local.entity.DestinationEntity
 
 @Dao
 interface DestinationDAO {

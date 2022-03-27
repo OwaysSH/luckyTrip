@@ -5,11 +5,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
-import app.oways.luckytrip.database.entity.DestinationEntity
+import app.oways.luckytrip.data.local.entity.DestinationEntity
 import app.oways.luckytrip.repository.local.ILocalDestinationOperations
 import app.oways.luckytrip.repository.remote.IDestinationOperations
-import app.oways.luckytrip.service.DataState
-import app.oways.luckytrip.service.DestinationResponse
+import app.oways.luckytrip.data.remote.DataState
+import app.oways.luckytrip.data.remote.DestinationResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collectLatest

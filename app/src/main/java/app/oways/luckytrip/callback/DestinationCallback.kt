@@ -1,6 +1,6 @@
 package app.oways.luckytrip.callback
 
-import app.oways.luckytrip.service.dmain.Destination
+import app.oways.luckytrip.data.remote.response.Destination
 
 interface DestinationCallback {
 

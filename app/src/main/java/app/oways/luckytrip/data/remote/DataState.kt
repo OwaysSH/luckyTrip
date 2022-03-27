@@ -1,4 +1,4 @@
-package app.oways.luckytrip.service
+package app.oways.luckytrip.data.remote
 
 sealed class DataState<out R> {
     data class Success<out T>(val data: T) : DataState<T>()

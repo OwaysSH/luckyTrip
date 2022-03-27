@@ -1,7 +1,7 @@
 package app.oways.luckytrip.mapper
 
-import app.oways.luckytrip.database.entity.DestinationEntity
-import app.oways.luckytrip.service.dmain.Destination
+import app.oways.luckytrip.data.local.entity.DestinationEntity
+import app.oways.luckytrip.data.remote.response.Destination
 
 object DestinationMapper {
 

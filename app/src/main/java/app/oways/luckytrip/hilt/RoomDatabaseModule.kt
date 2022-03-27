@@ -2,7 +2,7 @@ package app.oways.luckytrip.hilt
 
 import android.app.Application
 import androidx.room.Room
-import app.oways.luckytrip.database.AppDatabase
+import app.oways.luckytrip.data.local.AppDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

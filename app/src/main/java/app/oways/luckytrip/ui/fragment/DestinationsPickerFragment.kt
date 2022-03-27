@@ -11,11 +11,11 @@ import androidx.lifecycle.Observer
 import app.oways.luckytrip.R
 import app.oways.luckytrip.callback.DestinationCallback
 import app.oways.luckytrip.callback.IFragment
-import app.oways.luckytrip.database.entity.DestinationEntity
-import app.oways.luckytrip.service.dmain.Destination
+import app.oways.luckytrip.data.local.entity.DestinationEntity
+import app.oways.luckytrip.data.remote.response.Destination
 import app.oways.luckytrip.mapper.DestinationMapper
-import app.oways.luckytrip.service.DataState
-import app.oways.luckytrip.service.DestinationResponse
+import app.oways.luckytrip.data.remote.DataState
+import app.oways.luckytrip.data.remote.DestinationResponse
 import app.oways.luckytrip.ui.adapter.remote.DestinationAdapter
 import app.oways.luckytrip.util.comparator.SortBy
 import app.oways.luckytrip.util.extentions.gone

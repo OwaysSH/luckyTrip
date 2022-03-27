@@ -1,6 +1,6 @@
 package app.oways.luckytrip.hilt
 
-import app.oways.luckytrip.database.doa.DestinationDAO
+import app.oways.luckytrip.data.local.doa.DestinationDAO
 import app.oways.luckytrip.repository.local.ILocalDestinationOperations
 import app.oways.luckytrip.repository.local.LocalDestinationRepository
 import app.oways.luckytrip.repository.remote.DestinationRepository

@@ -7,7 +7,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import app.oways.luckytrip.R
-import app.oways.luckytrip.service.DataState
+import app.oways.luckytrip.data.remote.DataState
 import app.oways.luckytrip.ui.adapter.local.DestinationLoadStateAdapter
 import app.oways.luckytrip.ui.adapter.local.SelectedDestinationAdapter
 import app.oways.luckytrip.util.extentions.gone

@@ -1,6 +1,6 @@
 package app.oways.luckytrip.util.comparator
 
-import app.oways.luckytrip.service.dmain.Destination
+import app.oways.luckytrip.data.remote.response.Destination
 import java.util.Comparator
 
 class DestinationComparator(private val sortBy: SortBy) : Comparator<Destination> {

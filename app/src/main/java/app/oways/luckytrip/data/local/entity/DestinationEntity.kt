@@ -1,4 +1,4 @@
-package app.oways.luckytrip.database.entity
+package app.oways.luckytrip.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
