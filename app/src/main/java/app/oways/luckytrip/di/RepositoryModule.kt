@@ -1,4 +1,4 @@
-package app.oways.luckytrip.hilt
+package app.oways.luckytrip.di
 
 import app.oways.luckytrip.data.local.doa.DestinationDAO
 import app.oways.luckytrip.repository.local.ILocalDestinationOperations

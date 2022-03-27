@@ -1,4 +1,4 @@
-package app.oways.luckytrip.hilt
+package app.oways.luckytrip.di
 
 import android.content.Context
 import app.oways.luckytrip.BuildConfig
